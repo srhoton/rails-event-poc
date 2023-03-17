@@ -1,0 +1,35 @@
+Started GET "/" for 127.0.0.1 at 2023-03-17 13:52:10 +0000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/ubuntu/.rbenv/versions/3.2.1/lib/ruby/gems/3.2.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rbenv/versions/3.2.1/lib/ruby/gems/3.2.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 606)
+Completed 200 OK in 17ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5073)
+
+
+Started GET "/" for 71.112.165.25 at 2023-03-17 13:58:20 +0000
+Cannot render console from 71.112.165.25! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ubuntu/.rbenv/versions/3.2.1/lib/ruby/gems/3.2.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ubuntu/.rbenv/versions/3.2.1/lib/ruby/gems/3.2.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 459)
+Completed 200 OK in 14ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3153)
+
+
+Started GET "/articles" for 71.112.165.25 at 2023-03-17 14:02:19 +0000
+Cannot render console from 71.112.165.25! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 649.8ms | Allocations: 85814)
+Completed 200 OK in 661ms (Views: 653.2ms | ActiveRecord: 0.0ms | Allocations: 88702)
+
+
+Started GET "/" for 71.112.165.25 at 2023-03-17 14:03:49 +0000
+Cannot render console from 71.112.165.25! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 327.9ms | Allocations: 33646)
+Completed 200 OK in 344ms (Views: 332.5ms | ActiveRecord: 0.0ms | Allocations: 36535)
+
+
